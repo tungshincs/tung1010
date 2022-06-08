@@ -1,7 +1,7 @@
 let USD2VND = function (n) {
   let changed = n * 23_500;
 
-  console.log(`${n) * 23_500 = ${changed});
+  console.log(`${n} * 23_500 = ${changed});
 };
 
 USD2VND(100);
