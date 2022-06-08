@@ -6,6 +6,7 @@ let USD2VND = function (n) {
 
 USD2VND(100);
 USD2VND(52);
+USD2VND(165);
 
 let compoundInterest = function (P, r, n, t) {
   let result = P * (1 + r / n) * (n * t);
