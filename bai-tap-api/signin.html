@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>Bài tập API</title>
+  <link
+    rel="shortcut icon"
+    href="https://i.pinimg.com/736x/d3/18/b3/d318b3d71f09b44761fbf5d75d4278ac--ios-icon-minion.jpg"
+    type="image/x-icon"
+  />
+
+  <link rel="shortcut icon" href="/assets/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <form class="form" id="login">
+      <h1 class="form__title">Login</h1>
+      <div class="form__message form__message--error"></div>
+
+      <div class="form__input-group">
+        <label for="username" class="form-label"></label>
+        <input
+          id="username"
+          type="text"
+          class="form__input"
+          placeholder="Username or email"
+        />
+        <div class="form__input-error-message"></div>
+      </div>
+      <div class="form__input-group">
+        <label for="password" class="form-label"></label>
+        <input
+          type="password"
+          id="password"
+          class="form__input"
+          placeholder="Password"
+        />
+        <div class="form__input-error-message"></div>
+      </div>
+      <button class="form__button" id="btn-signin" type="submit">
+        Continue
+      </button>
+
+      <p class="form__text">
+        <a class="form__link" href="signup.html" id="linkCreateAccount"
+          >Don't have an account? Create account</a
+        >
+      </p>
+    </form>
+    <div id="user-info"></div>
+  </div>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="script.js"></script>
+</body>
